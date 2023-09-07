@@ -24,3 +24,21 @@ The result is a matrix where each row corresponds to a document, and each column
 | 1 1 1 1 1 0 0 0 0 0 0 |<br>
 | 0 0 0 1 1 1 1 1 0 0 0 |<br>
 | 0 0 1 1 1 0 0 0 1 1 1 |<br>
+
+## confusion_matrix
+`The confusion_matrix(y_test, y_pred)` function is used to compute a confusion matrix for a classification problem. A confusion matrix is a table that summarizes the performance of a classification algorithm by comparing the actual (`true`) class labels (`y_test`) with the predicted class labels (`y_pred`).<br>
+Here's how the confusion matrix is structured:<br>
+
+|  |   `Predicted Negative` 	| `Predicted Positive` |
+|:---:|:---:|:---:|
+|`Actual Negative `|   True Negative  |    False Positive|
+|`Actual Positive`  |  False Negative  |   True Positive|
+
+1. `True Negative (TN)`: The number of instances that were correctly predicted as negative.
+
+1. `False Positive (FP)`: The number of instances that were incorrectly predicted as positive when they were actually negative. Also known as Type I error.
+
+1. `False Negative (FN)`: The number of instances that were incorrectly predicted as negative when they were actually positive. Also known as Type II error.
+
+1. `True Positive (TP)`: The number of instances that were correctly predicted as positive.
+
