@@ -4,9 +4,9 @@ All simplified explain with ex.
 
 Suppose you have a collection of three text documents:
 
-Document 1: "I like cats and dogs."
-Document 2: "Dogs are friendly animals."
-Document 3: "Cats and dogs make good pets."
+Document 1: "I like cats and dogs."<br>
+Document 2: "Dogs are friendly animals."<br>
+Document 3: "Cats and dogs make good pets."<br>
 Now, let's use `CountVectorizer` to represent these documents as a sparse matrix:
 
 ### 1. `Vocabulary Building`:
